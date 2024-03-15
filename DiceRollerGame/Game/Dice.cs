@@ -3,7 +3,7 @@
     public class Dice
     {
         private readonly Random _random;
-        private readonly int SidesCount = 6;
+        private const int SidesCount = 6;
 
         public Dice(Random random)
         {
